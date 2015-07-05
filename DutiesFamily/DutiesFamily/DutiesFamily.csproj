@@ -173,6 +173,8 @@
     <Content Include="Scripts\Api\ViewModel\FamilyViewModel.js" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\jquery-1.11.3.js" />
+    <Content Include="Scripts\knockout-file-bindings.js" />
+    <Content Include="Scripts\Knockout.js" />
     <Content Include="Scripts\magnific-popup.js" />
     <Content Include="Scripts\Site.js" />
     <Content Include="Scripts\ValidateFields.js" />
