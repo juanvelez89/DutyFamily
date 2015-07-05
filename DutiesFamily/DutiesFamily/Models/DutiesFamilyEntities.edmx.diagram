@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="62e1ea484aa4488b8e5124e38731bb39" Name="Diagram1">
+        <EntityTypeShape EntityType="DutiesFamilyModel.Duty" Width="1.5" PointX="3" PointY="7.125" />
+        <EntityTypeShape EntityType="DutiesFamilyModel.DutyUser" Width="1.5" PointX="5.75" PointY="1.625" />
+        <EntityTypeShape EntityType="DutiesFamilyModel.Family" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="DutiesFamilyModel.Rol" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DutiesFamilyModel.User" Width="1.5" PointX="3" PointY="3.125" />
+        <AssociationConnector Association="DutiesFamilyModel.FK_Duty_Family" />
+        <AssociationConnector Association="DutiesFamilyModel.FK_User_Family" />
+        <AssociationConnector Association="DutiesFamilyModel.FK_User_Rol" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

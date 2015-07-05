@@ -1,0 +1,31 @@
+﻿@font-face {
+font-family: AmaticSC-Regular;
+src: url("..Typography\AmaticSC-Regular.ttf");
+}
+
+
+
+
+body {
+    background-color:#fff;
+    color:#53493F;
+    font-family:"AmaticSC-Regular";
+}
+
+.fieldsetDutiesFamily{
+    border:7px solid #53493F;
+    border-radius: 14%;
+}
+
+.centerContainer{
+    background-color:#FAFAFA;
+}
+
+h1,h2,h3{
+    margin-left:2px;
+}
+
+.errorField{
+    color:red;
+    display:none;
+}

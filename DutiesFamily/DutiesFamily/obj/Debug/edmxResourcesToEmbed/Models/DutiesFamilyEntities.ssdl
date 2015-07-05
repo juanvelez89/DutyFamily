@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DutiesFamilyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Duty">
+    <Key>
+      <PropertyRef Name="IdDuty" />
+    </Key>
+    <Property Name="IdDuty" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DutyName" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="IdFamily" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DutyUser">
+    <Key>
+      <PropertyRef Name="IdRow" />
+    </Key>
+    <Property Name="IdRow" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdUser" Type="bigint" Nullable="false" />
+    <Property Name="IdFamily" Type="bigint" Nullable="false" />
+    <Property Name="InitDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Family">
+    <Key>
+      <PropertyRef Name="IdFamily" />
+    </Key>
+    <Property Name="IdFamily" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FamilyName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Image" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Name="IdRol" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RolName" Type="varchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Image" Type="varchar" MaxLength="500" />
+    <Property Name="IdFamily" Type="bigint" Nullable="false" />
+    <Property Name="IdRol" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Duty_Family">
+    <End Role="Family" Type="Self.Family" Multiplicity="1" />
+    <End Role="Duty" Type="Self.Duty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Family">
+        <PropertyRef Name="IdFamily" />
+      </Principal>
+      <Dependent Role="Duty">
+        <PropertyRef Name="IdFamily" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Family">
+    <End Role="Family" Type="Self.Family" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Family">
+        <PropertyRef Name="IdFamily" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IdFamily" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DutiesFamilyModelStoreContainer">
+    <EntitySet Name="Duty" EntityType="Self.Duty" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DutyUser" EntityType="Self.DutyUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Family" EntityType="Self.Family" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Duty_Family" Association="Self.FK_Duty_Family">
+      <End Role="Family" EntitySet="Family" />
+      <End Role="Duty" EntitySet="Duty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Family" Association="Self.FK_User_Family">
+      <End Role="Family" EntitySet="Family" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Rol" Association="Self.FK_User_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

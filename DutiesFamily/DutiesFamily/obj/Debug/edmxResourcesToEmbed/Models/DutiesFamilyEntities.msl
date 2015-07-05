@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DutiesFamilyModelStoreContainer" CdmEntityContainer="DutiesFamilyEntities">
+    <EntitySetMapping Name="Duty">
+      <EntityTypeMapping TypeName="DutiesFamilyModel.Duty">
+        <MappingFragment StoreEntitySet="Duty">
+          <ScalarProperty Name="IdFamily" ColumnName="IdFamily" />
+          <ScalarProperty Name="DutyName" ColumnName="DutyName" />
+          <ScalarProperty Name="IdDuty" ColumnName="IdDuty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DutyUser">
+      <EntityTypeMapping TypeName="DutiesFamilyModel.DutyUser">
+        <MappingFragment StoreEntitySet="DutyUser">
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="InitDate" ColumnName="InitDate" />
+          <ScalarProperty Name="IdFamily" ColumnName="IdFamily" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="IdRow" ColumnName="IdRow" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Family">
+      <EntityTypeMapping TypeName="DutiesFamilyModel.Family">
+        <MappingFragment StoreEntitySet="Family">
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FamilyName" ColumnName="FamilyName" />
+          <ScalarProperty Name="IdFamily" ColumnName="IdFamily" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rol">
+      <EntityTypeMapping TypeName="DutiesFamilyModel.Rol">
+        <MappingFragment StoreEntitySet="Rol">
+          <ScalarProperty Name="RolName" ColumnName="RolName" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="DutiesFamilyModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="IdFamily" ColumnName="IdFamily" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
