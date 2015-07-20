@@ -124,6 +124,7 @@
     <Compile Include="Dto\DutyDto.cs" />
     <Compile Include="Dto\FamilyDto.cs" />
     <Compile Include="Dto\ResponseDto.cs" />
+    <Compile Include="Dto\UserDTO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -154,6 +155,7 @@
     </Compile>
     <Compile Include="Models\ModelsServices\DutyModel.cs" />
     <Compile Include="Models\ModelsServices\FamilyModel.cs" />
+    <Compile Include="Models\ModelsServices\UserModel.cs" />
     <Compile Include="Models\Rol.cs">
       <DependentUpon>DutiesFamilyEntities.tt</DependentUpon>
     </Compile>
@@ -168,9 +170,13 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
     <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\background.png" />
+    <Content Include="Images\logoHead.png" />
     <Content Include="Scripts\Api\Dto\FamilyDto.js" />
     <Content Include="Scripts\Api\Model\FamilyModel.js" />
+    <Content Include="Scripts\Api\Model\UserModel.js" />
     <Content Include="Scripts\Api\ViewModel\FamilyViewModel.js" />
+    <Content Include="Scripts\Api\ViewModel\HomeViewModel.js" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\jquery-1.11.3.js" />
     <Content Include="Scripts\knockout-file-bindings.js" />

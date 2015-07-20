@@ -49,7 +49,7 @@ namespace DutiesFamily.Controllers.Api
         {
             ResponseDto<FamilyDto> response = new ResponseDto<FamilyDto>();
             FamilyModel familyModel = new FamilyModel();
-            if(familyModel.ValidateFamily(family.FamilyName,family.Password)==null)
+            if(familyModel.ExistFamily(family.FamilyName)==null)
             {
                 response.Data = familyModel.RegisterFamily(family);
                 response.header.Message = ResponseMessages.SuccessMessage.Message;

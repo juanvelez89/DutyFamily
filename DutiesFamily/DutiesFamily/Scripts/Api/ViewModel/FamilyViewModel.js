@@ -44,7 +44,7 @@ $(function () {
 
 
     //registro 
-    $('#btnRegisterSubmit').click(function () {
+    $('#btnRegisterSubmit').click(function (event) {
         event.preventDefault();
         var familyModel = new FamilyModel();
         var familyDto = new FamilyDto();
