@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Usuario\Documents\Despliegue\DutyFamily</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DutiesFamily.dll">
+      <publishTime>07/29/2015 20:48:11</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/30/2015 22:00:11</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>05/30/2015 22:00:11</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/30/2015 21:53:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>05/30/2015 21:53:13</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/30/2015 21:53:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/30/2015 21:53:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/30/2015 21:53:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/30/2015 21:53:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/30/2015 21:53:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/30/2015 21:53:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/30/2015 21:53:12</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/30/2015 21:52:42</publishTime>
+    </File>
+    <File Include="Images/ajax-loader.gif">
+      <publishTime>07/04/2015 07:04:34</publishTime>
+    </File>
+    <File Include="Images/background.png">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Images/logoHead.png">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Models/DutiesFamilyEntities.edmx.diagram">
+      <publishTime>06/13/2015 22:04:58</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/30/2015 22:00:15</publishTime>
+    </File>
+    <File Include="Scripts/Api/Dto/FamilyDto.js">
+      <publishTime>06/15/2015 08:29:53</publishTime>
+    </File>
+    <File Include="Scripts/Api/Model/FamilyModel.js">
+      <publishTime>07/04/2015 07:45:14</publishTime>
+    </File>
+    <File Include="Scripts/Api/Model/UserModel.js">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Scripts/Api/ViewModel/FamilyViewModel.js">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Scripts/Api/ViewModel/HomeViewModel.js">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Scripts/foundation.min.js">
+      <publishTime>06/14/2015 18:09:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.11.3.js">
+      <publishTime>06/14/2015 22:48:45</publishTime>
+    </File>
+    <File Include="Scripts/knockout-file-bindings.js">
+      <publishTime>07/20/2015 19:55:31</publishTime>
+    </File>
+    <File Include="Scripts/Knockout.js">
+      <publishTime>07/20/2015 19:55:31</publishTime>
+    </File>
+    <File Include="Scripts/magnific-popup.js">
+      <publishTime>07/04/2015 06:57:55</publishTime>
+    </File>
+    <File Include="Scripts/Site.js">
+      <publishTime>07/04/2015 06:38:40</publishTime>
+    </File>
+    <File Include="Scripts/ValidateFields.js">
+      <publishTime>07/04/2015 10:54:44</publishTime>
+    </File>
+    <File Include="Styles/foundation.css">
+      <publishTime>06/14/2015 18:07:55</publishTime>
+    </File>
+    <File Include="Styles/magnific-popup.css">
+      <publishTime>07/04/2015 07:06:27</publishTime>
+    </File>
+    <File Include="Styles/main.css">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Styles/normalize.css">
+      <publishTime>06/14/2015 18:09:08</publishTime>
+    </File>
+    <File Include="Typography/AmaticSC-Regular.ttf">
+      <publishTime>06/14/2015 22:18:28</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>07/04/2015 10:59:46</publishTime>
+    </File>
+    <File Include="Views/Inicio/Index.cshtml">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Views/Register/Index.cshtml">
+      <publishTime>07/20/2015 19:55:32</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>05/30/2015 21:52:42</publishTime>
+    </File>
+    <File Include="Views/_Shared/_Layout.cshtml">
+      <publishTime>07/20/2015 19:55:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/29/2015 21:18:42</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

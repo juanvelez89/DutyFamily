@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="large-6">
+        <br />
+        <p>
+            Una aplicación para organizar la vida de la familia, orientada a crear todas las
+            tareas necesarias.
+        </p>
+    </div>
+    <div class="large-6 columns">
+        <fieldset class="fieldsetDutiesFamily">
+            <form>
+                <div class="row">
+                    <div class="small-12 medium-12 large-12 columns">
+                        <label id="errFamlily" class="errorField">
+                            *Familia es un campo obligatorio.
+                        </label>
+                        <label>
+                            Familia
+                            <input type="text" id="txtFamily" />
+                        </label>
+                    </div>
+
+                    <div class="small-12 medium-12 large-12 columns">
+                        <label id="errPassword" class="errorField">
+                            *Contraseña es un campo obligatorio.
+                        </label>
+                        <label>
+                            Contraseña
+                            <input type="password" id="txtPassword" />
+                        </label>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="small-6 medium-6 large-6 columns">
+                        <a href="#" id="btnRegister" class="button round">Registrarse</a>
+                    </div>
+                    <div class="small-6 medium-6 large-6 columns">
+                        <a href="#" id="btnLogin" class="button round">Ingresar</a>
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+    
+<script src="~/Scripts/ValidateFields.js"></script>
+
+<script src="~/Scripts/Api/Dto/FamilyDto.js"></script>
+<script src="~/Scripts/Api/Model/FamilyModel.js"></script>
+<script src="~/Scripts/Api/ViewModel/FamilyViewModel.js"></script>
+

@@ -1,0 +1,65 @@
+﻿@font-face {
+font-family: AmaticSC-Regular;
+src: url("..Typography\AmaticSC-Regular.ttf");
+}
+
+
+
+
+body {
+    background-image:url("../Images/background.png");
+    color:#0070E2;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+h1,h2,h3,h4{
+    color:#0070E2;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+.button {
+   font-family: 'Fontdiner Swanky', cursive;
+}
+
+
+.fieldsetDutiesFamily{
+    border:7px solid #53493F;
+    border-radius: 14%;
+}
+
+.centerContainer{
+    background-color:#FAFAFA;
+}
+
+h1,h2,h3{
+    margin-left:2px;
+}
+
+.errorField{
+    color:red;
+    display:none;
+}
+
+
+
+.divMenuLateral{
+      background: #c1c1c1;
+  width: 179px;
+  margin: 24px 0 10px 10px;
+}
+
+.ContainerMenuLateraldiv {
+      border: 2px #e1e1e1;
+  border-style: outset;
+    text-align: center;
+    color:#fff;
+
+}
+
+#newUser {
+    display:none;
+}
+
+#userForm {
+    display:none;
+}

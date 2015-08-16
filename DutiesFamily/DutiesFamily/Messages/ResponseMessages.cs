@@ -94,5 +94,24 @@ namespace DutiesFamily.Messages
                 }
             }
         }
+
+        public static class ServerError
+        {
+            public static string Message
+            {
+                get
+                {
+                    return "En este momento no podemos atender su solicitud.";
+                }
+            }
+
+            public static int Code
+            {
+                get
+                {
+                    return 500;
+                }
+            }
+        }
     }
 }

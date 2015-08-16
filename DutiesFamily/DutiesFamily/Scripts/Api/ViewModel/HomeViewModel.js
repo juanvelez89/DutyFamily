@@ -16,6 +16,15 @@
     $('#btnUsers').click(function () {
         $('.popup-modal').click();
         $('#userForm').show();
+        $('#RolForm').hide();
+        $('#IntroHome').hide();
+        $.magnificPopup.close();
+    });
+
+    $('#btnRoles').click(function () {
+        $('.popup-modal').click();
+        $('#userForm').hide();
+        $('#rolForm').show();
         $('#IntroHome').hide();
         $.magnificPopup.close();
     });

@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Styles/normalize.css" rel="stylesheet" />
+    <link href="~/Styles/foundation.css" rel="stylesheet" />
+    <link href="~/Styles/magnific-popup.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+
+    <link href="~/Styles/main.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-1.11.3.js"></script>
+    <script src="~/Scripts/magnific-popup.js"></script>
+
+    <script src="~/Scripts/Site.js"></script>
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Duties Family</title>
+</head>
+<body>
+    <header>
+        <img src="~/Images/logoHead.png" />
+    </header>
+    <br />
+    <div class="centerContainer">
+        @RenderBody()
+    </div>
+    <a class="popup-modal" style="display:none;" href="#test-modal">Open modal</a>
+
+    <div id="test-modal" class="white-popup-block mfp-hide">
+        <img src="~/Images/ajax-loader.gif" />
+    </div>
+    <footer>
+        <div class="row">
+            <br />
+            <br />
+        </div>
+    </footer>
+</body>
+</html>

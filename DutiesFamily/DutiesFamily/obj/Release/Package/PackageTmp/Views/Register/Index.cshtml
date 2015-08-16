@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="large-6">
+        <br />
+        <p>
+Ingresa los datos necesarios para registrar la Familia.
+        </p>
+    </div>
+    <div class="large-12 columns">
+        <fieldset class="fieldsetDutiesFamily">
+            <form>
+                <div class="row">
+                    <br />
+                    <div class="small-12 medium-6 large-6 columns">
+                        <label id="errFamlily" class="errorField">
+                            *Familia es un campo obligatorio.
+                        </label>
+                        <label>
+                            Familia
+                            <input type="text" id="txtFamily" />
+                        </label>
+                    </div>
+                    <div class="small-12 medium-6 large-6 columns">
+                        <label id="errPassword" class="errorField">
+                            *Contraseña es un campo obligatorio.
+                        </label>
+                        <label>
+                            Contraseña
+                            <input type="password" id="txtPassword" />
+                        </label>
+                    </div>
+                    <div class="small-12 medium-6 large-6 columns">
+                        <label>
+                            Imagen
+                            <input type="file" id="txtImageFamily" />
+                        </label>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="small-6 medium-6 large-6 columns">
+                        <div class="small-6 medium-6 large-6 columns">
+                            <a href="/" id="btnCancelar" class="button round">Cancelar</a>
+                        </div>
+                        <div class="small-6 medium-6 large-6 columns">
+                            <a href="#" id="btnRegisterSubmit" class="button round">Registrarse</a>
+                        </div>
+                    </div>
+                    <div class="small-6 medium-6 large-6 columns">
+                        <h3>Recomendaciones</h3>
+                        <ul>
+                            <li>
+                                <p>
+                                    Escoger un nombre para la familia que la identifique como única.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Escribir una contraseña de fácil memoria para todos los miembros de la familia. 
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+<script src="~/Scripts/ValidateFields.js"></script>
+
+<script src="~/Scripts/Api/Dto/FamilyDto.js"></script>
+<script src="~/Scripts/Api/Model/FamilyModel.js"></script>
+<script src="~/Scripts/Api/ViewModel/FamilyViewModel.js"></script>

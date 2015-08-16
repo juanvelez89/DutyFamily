@@ -19,6 +19,7 @@ $(function () {
             familyModel.LoginFamily(familyDto, function (data) {
                 if(data.header.Code==200)
                 {
+                    localStorage.idFamily = data.Data.IdFamily;
                     localStorage.familyName = data.Data.FamilyName;
                     localStorage.familyImage = data.Data.Image;
                     window.location.replace("/Inicio");
