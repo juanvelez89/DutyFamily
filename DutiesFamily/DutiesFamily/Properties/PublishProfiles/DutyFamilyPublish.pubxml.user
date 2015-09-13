@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/DutiesFamily.dll">
-      <publishTime>07/29/2015 20:48:11</publishTime>
+      <publishTime>09/13/2015 15:20:40</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>05/30/2015 22:00:11</publishTime>
@@ -58,7 +58,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/20/2015 19:55:49</publishTime>
     </File>
     <File Include="Models/DutiesFamilyEntities.edmx.diagram">
-      <publishTime>06/13/2015 22:04:58</publishTime>
+      <publishTime>08/13/2015 14:47:46</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>05/30/2015 22:00:15</publishTime>
@@ -66,17 +66,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/Api/Dto/FamilyDto.js">
       <publishTime>06/15/2015 08:29:53</publishTime>
     </File>
+    <File Include="Scripts/Api/Dto/UserDto.js">
+      <publishTime>08/13/2015 12:01:10</publishTime>
+    </File>
     <File Include="Scripts/Api/Model/FamilyModel.js">
       <publishTime>07/04/2015 07:45:14</publishTime>
     </File>
+    <File Include="Scripts/Api/Model/RolModel.js">
+      <publishTime>08/15/2015 21:09:14</publishTime>
+    </File>
     <File Include="Scripts/Api/Model/UserModel.js">
-      <publishTime>07/20/2015 19:55:49</publishTime>
+      <publishTime>08/13/2015 12:14:20</publishTime>
     </File>
     <File Include="Scripts/Api/ViewModel/FamilyViewModel.js">
-      <publishTime>07/20/2015 19:55:49</publishTime>
+      <publishTime>08/13/2015 12:07:36</publishTime>
     </File>
     <File Include="Scripts/Api/ViewModel/HomeViewModel.js">
-      <publishTime>07/20/2015 19:55:49</publishTime>
+      <publishTime>09/13/2015 15:18:06</publishTime>
     </File>
     <File Include="Scripts/foundation.min.js">
       <publishTime>06/14/2015 18:09:41</publishTime>
@@ -106,7 +112,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2015 07:06:27</publishTime>
     </File>
     <File Include="Styles/main.css">
-      <publishTime>07/20/2015 19:55:49</publishTime>
+      <publishTime>08/15/2015 21:21:15</publishTime>
     </File>
     <File Include="Styles/normalize.css">
       <publishTime>06/14/2015 18:09:08</publishTime>
@@ -118,7 +124,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2015 10:59:46</publishTime>
     </File>
     <File Include="Views/Inicio/Index.cshtml">
-      <publishTime>07/20/2015 19:55:49</publishTime>
+      <publishTime>09/13/2015 15:16:57</publishTime>
     </File>
     <File Include="Views/Register/Index.cshtml">
       <publishTime>07/20/2015 19:55:32</publishTime>
@@ -127,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/30/2015 21:52:42</publishTime>
     </File>
     <File Include="Views/_Shared/_Layout.cshtml">
-      <publishTime>07/20/2015 19:55:49</publishTime>
+      <publishTime>08/30/2015 22:17:55</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>07/29/2015 21:18:42</publishTime>

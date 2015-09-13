@@ -55,7 +55,7 @@
                             <div class="small-12 medium-6 large-6 columns">
                                 <label>
                                     Rol
-                                    <select data-bind="options: roles"></select>
+                                    <select data-bind="options: $root.rolList, optionsText: 'RolName',value: selectedRol, optionsCaption: 'Seleccione un rol'"></select>
                                 </label>
                                 <label>
                                     Imagen
@@ -82,5 +82,7 @@
 
     </div>
 </div>
-
+<script src="~/Scripts/Api/Dto/UserDto.js"></script>
+<script src="~/Scripts/Api/Model/UserModel.js"></script>
+<script src="~/Scripts/Api/Model/RolModel.js"></script>
 <script src="~/Scripts/Api/ViewModel/HomeViewModel.js"></script>

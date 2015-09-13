@@ -60,6 +60,6 @@ h1,h2,h3{
     display:none;
 }
 
-#userForm {
+#userForm,#rolForm {
     display:none;
 }

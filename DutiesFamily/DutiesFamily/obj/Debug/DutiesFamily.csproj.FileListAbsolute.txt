@@ -24,7 +24,6 @@ C:\Users\Usuario\Documents\Visual Studio 2013\Projects\DutiesFamily\DutiesFamily
 C:\Users\Usuario\Documents\Visual Studio 2013\Projects\DutiesFamily\DutiesFamily\obj\Debug\DutiesFamily.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\Documents\Visual Studio 2013\Projects\DutiesFamily\DutiesFamily\obj\Debug\DutiesFamily.dll
 C:\Users\Usuario\Documents\Visual Studio 2013\Projects\DutiesFamily\DutiesFamily\obj\Debug\DutiesFamily.pdb
-C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\obj\Debug\DutiesFamily.pdb
 C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\bin\DutiesFamily.dll.config
 C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\bin\DutiesFamily.dll
 C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\bin\DutiesFamily.pdb
@@ -50,3 +49,4 @@ C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\bin\System.Web
 C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\bin\System.Web.WebPages.Razor.xml
 C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\obj\Debug\DutiesFamily.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\obj\Debug\DutiesFamily.dll
+C:\Users\Usuario\Documents\HomeProjects\DutiesFamily\DutiesFamily\obj\Debug\DutiesFamily.pdb
